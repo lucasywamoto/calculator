@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
-<body>
+<body class="light-mode">
     <div class="container">
         <div class="display">
-            <div class="last-operation"></div>
-            <div class="current-operation"></div>
+            <div class="top-line"></div>
+            <div class="bottom-line">0</div>
         </div>
         <div class="keyboard">
             <button class="btn" data-number>7</button>
@@ -32,6 +32,7 @@
             <button class="btn" data-operator>+</button>
             <button class="btn" id="clearBtn">C</button>
             <button class="btn" id="deleteBtn">←</button>
+            <button id="mode" class="dark-mode">☾</button>
         </div>
     </div>
 </body>
